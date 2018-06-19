@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+header{
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  margin-left: 5%;
+  width: 90%;
+  justify-content: space-between;
+  border-radius: 0 0 25px 25px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-evenly;
+  flex: wrap-reverse;
+  padding: 2%
+}
+
+.nav-item a{
+  padding: 0 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
